@@ -19,12 +19,12 @@ class Wektor2D
     void   setY(int yyy) { y = yyy; };
     double getY() { return y; }
 
-  Wektor2D operator+ (Wektor2D v1, Wektor2D v2)
+  friend Wektor2D operator+ (Wektor2D v1, Wektor2D v2)
   {
   return Wektor2D{v1.x+v2.x, v1.y+v2.y};
   }
 
-  double operator* (Wektor2D v1, Wektor2D v2)
+  friend double operator* (Wektor2D v1, Wektor2D v2)
     {
   return v1.x*v2.x + v1.y*v2.y;
   }
