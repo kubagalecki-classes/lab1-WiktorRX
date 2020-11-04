@@ -34,8 +34,8 @@ private:
 int main()
 {
     Wektor2D Gary, Harry(17), Merry(6, 9);
+    Wektor2D v1{};
     Gary.print();
     Gary.setX(150);
     Gary.print();
-    cout << Gary;
 }

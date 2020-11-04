@@ -1,4 +1,31 @@
 class Wektor2D
 {
-    // Tutaj napisz implementacje klasy Wektor2D
+tor2D
+{
+public:
+    Wektor2D()
+    {
+        x = ;
+        y =4;
+        cout << "Stworzono wektor (3,4)\n";
+    }
+    Wektor2D(int xx, int yy = 1)
+    {
+        x = xx;
+        y = yy;
+        cout << "Stworzono wektor (" << x << "," << y << ")\n";
+    }
+    ~Wektor2D() { cout << "Z fartem (" << x << "," << y << ")\n"; }
+
+    double norm() { return sqrt((x * x) + (y * y)); }
+    void   print() { cout << "Wektor 2D: x=" << x << ", y=" << y << endl; }
+    void   setX(int xxx) { x = xxx; };
+    int    getX() { return x; }
+    void   setY(int yyy) { y = yyy; };
+    int    getY() { return y; }
+
+private:
+    int x;
+    int y;
+
 };
