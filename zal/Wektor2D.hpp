@@ -5,8 +5,8 @@ tor2D
 public:
     Wektor2D()
     {
-        x = ;
-        y =4;
+        x = 0;
+        y = 0;
         cout << "Stworzono wektor (3,4)\n";
     }
     Wektor2D(int xx, int yy = 1)
