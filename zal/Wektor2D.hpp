@@ -1,7 +1,5 @@
 class Wektor2D
 {
-tor2D
-{
 public:
     Wektor2D()
     {
@@ -23,8 +21,7 @@ public:
     double getX() { return x; }
     void   setY(int yyy) { y = yyy; };
     double getY() { return y; }
-
-private:
+    private:
     double x;
     double y;
 
