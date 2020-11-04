@@ -12,8 +12,6 @@ class Wektor2D
         y = yy;
         
     }
-   
-
     
 
     void   setX(int xxx) { x = xxx; };
@@ -28,7 +26,7 @@ class Wektor2D
 
   double operator* (Wektor2D v1, Wektor2D v2)
     {
-  return v1.x*v2.x + v1.y*v2.y
+  return v1.x*v2.x + v1.y*v2.y;
   }
 
   private:
