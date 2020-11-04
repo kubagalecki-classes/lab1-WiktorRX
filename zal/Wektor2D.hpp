@@ -9,7 +9,7 @@ public:
         y = 0;
         cout << "Stworzono wektor (3,4)\n";
     }
-    Wektor2D(int xx, int yy = 1)
+    Wektor2D(int xx, int yy)
     {
         x = xx;
         y = yy;
@@ -25,7 +25,7 @@ public:
     int    getY() { return y; }
 
 private:
-    int x;
-    int y;
+    double x;
+    double y;
 
 };
