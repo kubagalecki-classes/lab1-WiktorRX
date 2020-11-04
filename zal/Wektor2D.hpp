@@ -20,9 +20,9 @@ public:
     double norm() { return sqrt((x * x) + (y * y)); }
     void   print() { cout << "Wektor 2D: x=" << x << ", y=" << y << endl; }
     void   setX(int xxx) { x = xxx; };
-    int    getX() { return x; }
+    double getX() { return x; }
     void   setY(int yyy) { y = yyy; };
-    int    getY() { return y; }
+    double getY() { return y; }
 
 private:
     double x;
